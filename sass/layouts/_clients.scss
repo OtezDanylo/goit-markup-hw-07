@@ -1,0 +1,16 @@
+.clients {
+    padding-bottom: 94px;
+}
+
+.list-icon-client {
+    display: flex;
+    &__item:not(:last-child) {
+    margin-right: 30px;
+}
+&__link:hover,
+&__link:focus {
+    border-color: var(--background-button-color);
+    color: var(--background-button-color);
+}
+}
+
